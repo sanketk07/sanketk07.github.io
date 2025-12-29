@@ -131,6 +131,26 @@
       color: var(--muted);
       border-top: 1px solid #1e293b;
     }
+
+.card p:last-child {
+  font-size: 0.85rem; /* smaller than default */
+  color: var(--muted); /* optional: make it slightly lighter */
+}
+
+.company-info {
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.company-name {
+  font-size: 1rem;       /* slightly larger for emphasis */
+  color: var(--text);
+}
+
+.company-years {
+  font-size: 0.85rem;    /* smaller and subtle */
+  color: var(--muted);
+}
   </style>
 </head>
 <body>
@@ -156,7 +176,10 @@ I specialize in component architecture, RxJS, state management, and enterprise-g
   <div class="grid">
     <div class="card">
       <h3>Principal Frontend Engineer</h3>
-      <p><strong>Company:</strong> Fidelity Investments</p>
+       <p class="company-info">
+        <span class="company-name">Fidelity Investments,</span>
+        <span class="company-years">May 2022 - Present</span>
+      </p>
       <p>
         Principal Frontend Engineer on the Enterprise Portfolio Construction team in Quant Research and Investment Technology.
       </p>
@@ -164,7 +187,10 @@ I specialize in component architecture, RxJS, state management, and enterprise-g
 
     <div class="card">
       <h3>Lead Full Stack Software Engineer</h3>
-      <p><strong>Company:</strong> Evernorth</p>
+<p class="company-info">
+        <span class="company-name">Evernorth,</span>
+        <span class="company-years">Nov 2020 - May 2022</span>
+      </p>
       <p>
         Architected and developed Angular based UI’s for eMOS and Sales Plan Aggregator applications as the UI Team Lead.
       </p>
@@ -172,7 +198,10 @@ I specialize in component architecture, RxJS, state management, and enterprise-g
 
     <div class="card">
       <h3>Full Stack Software Engineer</h3>
-      <p><strong>Company:</strong> IBM</p>
+      <p class="company-info">
+        <span class="company-name">IBM,</span>
+        <span class="company-years">Aug 2018 - Sep 2020</span>
+      </p>
       <p>
         Full Stack Engineer on the Watson Customer Engagement (WCE) platform team supporting the Watson Customer Engagement portfolio.
       </p>
@@ -180,7 +209,10 @@ I specialize in component architecture, RxJS, state management, and enterprise-g
 
 <div class="card">
       <h3>Software Engineer Co-op</h3>
-      <p><strong>Company:</strong> PayPal</p>
+<p class="company-info">
+        <span class="company-name">PayPal,</span>
+        <span class="company-years">May 2017 - Dec 2017</span>
+      </p>
       <p>
         Created a real time alerting application using TICK stack to monitor transaction failures and errors in PayPal Here. Worked as an Android developer for PayPal Here merchant application.
       </p>
@@ -188,7 +220,10 @@ I specialize in component architecture, RxJS, state management, and enterprise-g
 
 <div class="card">
       <h3>Software Engineer</h3>
-      <p><strong>Company:</strong> Tata Group</p>
+<p class="company-info">
+        <span class="company-name">Tata Group,</span>
+        <span class="company-years">Dec 2013 - Sep 2016</span>
+      </p>
       <p>
         Team Lead for Client Visit Management and Contact Management Systems.
       </p>
@@ -242,6 +277,27 @@ I specialize in component architecture, RxJS, state management, and enterprise-g
         for field and account teams.
       </p>
       <p><strong>Skills:</strong> AngularJS, Forms & Validation, Role-Based Workflows, Web Services</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="education">
+  <h2>🎓 Education</h2>
+  <div class="grid">
+
+ <div class="card">
+      <h3>Master of Science (MS), Information Systems</h3>
+      <p><strong>University:</strong> Northeastern University</p>
+      <p><strong>Years:</strong> 2016 - 2018</p>
+<p>Relevant Courses: Web Design and User Experience Engineering, Web Development Tools and Methods, Advances in Big Data Engineering, Program Structures and Algorithms, Network Structure and Cloud Computing, Application Engineering and Development, Data Management and Database Design, Career Management for Engineers</p>
+    </div>
+
+    <div class="card">
+      <h3>Bachelor of Engineering (BE), Computer Engineering</h3>
+      <p><strong>University:</strong> Pillai University</p>
+      <p><strong>Years:</strong> 2009 - 2013</p>
+<p>Relevant Courses - Web Engineering, Human Computer Interaction, E-commerce Applications Engineering, Analysis of Algorithms and Design, Data Structures and Files, Systems Programming and Compiler Construction, Mobile Communications, Object Oriented Software Engineering, Advanced Computer Networks, Cryptography and System Security, Multimedia System Design</p>
     </div>
 
   </div>
